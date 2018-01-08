@@ -8,9 +8,11 @@
   "license": "MIT",
   "dependencies": {
     "chai": "^4.1.2",
+    "eslint": "^4.15.0",
     "mocha": "^4.1.0"
   },
   "scripts": {
-    "test": "mocha tests/assertion-test.js"
+    "test": "mocha tests/assertion-test.js",
+    "lint": "eslint tests/assertion-test.js"
   }
 }
