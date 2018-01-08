@@ -1,0 +1,16 @@
+{
+  "name": "npm-package",
+  "version": "1.0.0",
+  "description": "A simple exercise in creating a scratch npm package and running tests",
+  "main": "index.js",
+  "repository": "https://github.com/SamKeathley/npm-test-package",
+  "author": "Sam K",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  },
+  "scripts": {
+    "test": "mocha tests/assertion-test.js"
+  }
+}
